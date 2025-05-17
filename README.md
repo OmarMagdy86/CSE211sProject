@@ -16,25 +16,18 @@ The main() function handles the main loop, checking button states, reading the A
 
 **Hardware Requirements**
 
-ST NUCLEO-F401RE Development Board
-
-Arduino Multifunction Shield
-
-Building and running
-
 Connect the Arduino Multifunction Shield to the NUCLEO-F401RE board.
 
 Connect the NUCLEO board to your computer via USB.
 
 Use your preferred Mbed OS build tool (Mbed CLI, Mbed Studio, etc.) to build the project for the NUCLEO_F401RE target and your chosen toolchain (e.g., ARMC6, GCC_ARM).
 
-Bash
-
 $ mbed compile -m NUCLEO_F401RE -t <TOOLCHAIN> --flash
 
 Replace <TOOLCHAIN> with your toolchain (e.g., ARMC6). The --flash flag will automatically program the board after a successful build.
 
 Alternatively, you can manually copy the generated .bin or .hex file from the BUILD directory to the NUCLEO board's virtual drive.
+
 Press the black reset button on the NUCLEO board to run the application.
 
 **Expected behavior**
