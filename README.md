@@ -1,3 +1,11 @@
+# CSE211s Final Project: RTC and ADC Display on NUCLEO-F401RE
+
+This project is the final assignment for the **CSE211s Introduction to Embedded Systems** course at **Ain Shams University Faculty of Engineering, Department of Mechatronics** (Spring 2025). It implements a combined Real-Time Clock (RTC) and Analog-to-Digital Converter (ADC) voltage display system using an ST NUCLEO-F401RE development board and an Arduino Multifunction Shield.
+
+The system utilizes the 4-digit 7-segment display on the shield to show either elapsed time (minutes and seconds) or the instantaneous voltage read from the onboard potentiometer via the NUCLEO's ADC.
+
+The application logic is built using the Mbed OS framework.
+
 **Application functionality**
 
 The project implements the following features:
@@ -16,19 +24,26 @@ The main() function handles the main loop, checking button states, reading the A
 
 **Hardware Requirements**
 
-Connect the Arduino Multifunction Shield to the NUCLEO-F401RE board.
+ST NUCLEO-F401RE Development Board
 
-Connect the NUCLEO board to your computer via USB.
+Arduino Multifunction Shield
 
-Use your preferred Mbed OS build tool (Mbed CLI, Mbed Studio, etc.) to build the project for the NUCLEO_F401RE target and your chosen toolchain (e.g., ARMC6, GCC_ARM).
+**Building and running**
 
+1- Connect the Arduino Multifunction Shield to the NUCLEO-F401RE board.
+
+2- Connect the NUCLEO board to your computer via USB.
+
+3- Use your preferred Mbed OS build tool (Mbed CLI, Mbed Studio, etc.) to build the project for the NUCLEO_F401RE target and your chosen toolchain (e.g., ARMC6, GCC_ARM).
+
+'''
 $ mbed compile -m NUCLEO_F401RE -t <TOOLCHAIN> --flash
-
+'''
 Replace <TOOLCHAIN> with your toolchain (e.g., ARMC6). The --flash flag will automatically program the board after a successful build.
 
-Alternatively, you can manually copy the generated .bin or .hex file from the BUILD directory to the NUCLEO board's virtual drive.
+4- Alternatively, you can manually copy the generated .bin or .hex file from the BUILD directory to the NUCLEO board's virtual drive.
 
-Press the black reset button on the NUCLEO board to run the application.
+5- Press the black reset button on the NUCLEO board to run the application.
 
 **Expected behavior**
 
