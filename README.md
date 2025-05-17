@@ -23,11 +23,14 @@ $ mbed compile -m NUCLEO_F401RE -t <TOOLCHAIN> --flash
 Replace <TOOLCHAIN> with your toolchain (e.g., ARMC6). The --flash flag will automatically program the board after a successful build.
 Alternatively, you can manually copy the generated .bin or .hex file from the BUILD directory to the NUCLEO board's virtual drive.
 Press the black reset button on the NUCLEO board to run the application.
-Expected behavior
+
+**Expected behavior**
+
 Upon reset, the display should show 0000 and begin counting up: 0001, 0002, ... 0059, 0100, etc.
 Pressing S1 should reset the display to 0000.
 Pressing and holding S3 should show the potentiometer voltage (e.g., 3.30, 1.65, 0.00). The value should change as you rotate the potentiometer knob.
 Releasing S3 should make the display return to showing the elapsed time from where it left off.
+
 **Video Demonstration**
 
 A video showcasing the project's functionality, including the RTC counting, resetting the timer with S1, and displaying the voltage with S3, is available via the following Google Drive link:
