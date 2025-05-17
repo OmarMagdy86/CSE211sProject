@@ -8,11 +8,11 @@ The application logic is built using the Mbed OS framework.
 
 **Contributors**
 
-AHMED IBRAHIM [2101122]
+Ahmed Ibrahem [2101122]
 
-MOHAMED TAREK [2100287]
+Mohamed Tarek [2100287]
 
-OMAR MAGDY [2100273]
+Omar Magdy [2100273]
 
 **Application functionality**
 
