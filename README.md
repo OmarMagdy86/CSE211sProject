@@ -36,8 +36,9 @@ Arduino Multifunction Shield
 
 3- Use your preferred Mbed OS build tool (Mbed CLI, Mbed Studio, etc.) to build the project for the NUCLEO_F401RE target and your chosen toolchain (e.g., ARMC6, GCC_ARM).
 
-
+```
   $ mbed compile -m NUCLEO_F401RE -t <TOOLCHAIN> --flash
+```
 
 Replace <TOOLCHAIN> with your toolchain (e.g., ARMC6). The --flash flag will automatically program the board after a successful build.
 
