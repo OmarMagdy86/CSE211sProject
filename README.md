@@ -1,4 +1,4 @@
-Application functionality
+**Application functionality**
 The project implements the following features:
 
 Real-Time Clock (RTC): The 7-segment display shows elapsed time in MMSS format (MinutesSeconds), starting from 0000 after a board reset.
@@ -8,7 +8,7 @@ Mode Switching: Releasing the S3 button switches the display back to showing the
 Min/Max Voltage Tracking: The system also tracks the minimum and maximum voltage values read from the potentiometer since the last reset (though these are not explicitly displayed in the standard mode according to the code provided, they are calculated).
 The main() function handles the main loop, checking button states, reading the ADC, updating internal time variables, and refreshing the 7-segment display based on the current mode. A Ticker is used to increment the time every second in a separate context. The 7-segment display is driven using a shift register.
 
-Hardware Requirements
+**Hardware Requirements**
 ST NUCLEO-F401RE Development Board
 Arduino Multifunction Shield
 Building and running
@@ -31,7 +31,7 @@ A video showcasing the project's functionality, including the RTC counting, rese
 
 (https://drive.google.com/file/d/1OPm_c9VCSLpj6Hjp9WXttaztiF4Snf8j/view?usp=sharing)
 
-Contributors
+**Contributors**
 AHMED IBRAHIM [2101122]
 MOHAMED TAREK [2100287]
 OMAR MAGDY [2100273]
