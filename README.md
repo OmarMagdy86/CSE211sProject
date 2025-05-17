@@ -68,7 +68,7 @@ Releasing S3 should make the display return to showing the elapsed time from whe
 
 A video showcasing the project's functionality, including the RTC counting, resetting the timer with S1, and displaying the voltage with S3, is available via the following Google Drive link:
 
-(https://drive.google.com/file/d/1OPm_c9VCSLpj6Hjp9WXttaztiF4Snf8j/view?usp=sharing)
+[Project Video](https://drive.google.com/file/d/1OPm_c9VCSLpj6Hjp9WXttaztiF4Snf8j/view?usp=sharing)
 
 **Troubleshooting**
 
@@ -82,11 +82,11 @@ Build tool configuration.
 
 **Related Links**
 
-Mbed OS Documentation
+[Mbed OS Documentation](https://os.mbed.com/docs/)
 
-NUCLEO-F401RE Mbed OS Page
+[NUCLEO-F401RE Mbed OS Page](https://os.mbed.com/platforms/ST_NUCLEO_F401RE/)
 
-[Arduino Multifunction Shield Pinout/Information](Optional: Add a link if you found one describing the shield)
+[Arduino Multifunction Shield Pinout/Information](https://static1.squarespace.com/static/584d41b3f5e2310b396cd953/t/5b1880dd0e2e721b4208ceb2/1528332514748/PinoutComparison1.pdf)
 
 **License and contributions**
 
