@@ -6,6 +6,14 @@ The system utilizes the 4-digit 7-segment display on the shield to show either e
 
 The application logic is built using the Mbed OS framework.
 
+**Contributors**
+
+AHMED IBRAHIM [2101122]
+
+MOHAMED TAREK [2100287]
+
+OMAR MAGDY [2100273]
+
 **Application functionality**
 
 The project implements the following features:
@@ -62,10 +70,27 @@ A video showcasing the project's functionality, including the RTC counting, rese
 
 (https://drive.google.com/file/d/1OPm_c9VCSLpj6Hjp9WXttaztiF4Snf8j/view?usp=sharing)
 
-**Contributors**
+**Troubleshooting**
 
-AHMED IBRAHIM [2101122]
+If you encounter issues, please refer to the general Mbed OS documentation for debugging tips. Specific problems might relate to:
 
-MOHAMED TAREK [2100287]
+Incorrect hardware connections between the shield and NUCLEO.
 
-OMAR MAGDY [2100273]
+Library compatibility with your specific Mbed OS version or board.
+
+Build tool configuration.
+
+**Related Links**
+
+Mbed OS Documentation
+
+NUCLEO-F401RE Mbed OS Page
+
+[Arduino Multifunction Shield Pinout/Information](Optional: Add a link if you found one describing the shield)
+
+**License and contributions**
+
+The software is provided under Apache-2.0 license. Contributions to this project are accepted under the same license. Please see contributing.md for more info.
+
+This project contains code from other projects. The original license text is included in those source files. They must comply
+
